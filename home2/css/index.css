@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+:root{
+    --background-default-color: #0dcaf0;
+
+    --text-color-1:black;
+    --text-color-2:white;
+    --text-color-3-gray: #a7a5a5;
+
+    --text-hover-color-1: #117cef;
+    --default-font-size: 16px;
+
+    --primary-color-1:white;
+    --secondary-color: #f3f3f3ed;
+
+    /*    for dark mode colors   */
+    --dark-gb-color-1: #212121ed;
+    --dark-gb-color-2: rgba(61, 61, 61, 0.93);
+}
+
+*{
+    text-decoration: none !important;
+    /*color: black;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color-1) !important;
+    font-size: var(--default-font-size) !important;
+    /*background-image: url("../assets/images/bg12.jpg") !important;*/
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative; !important;
+    transition: 1s;
+}
+
+/*--------------------- Dark Mode Classes Start ------------------*/
+
+.dark-body{
+    transition: 1s;
+    background-color: #212121ed !important;
+    color: white !important;
+}
+.dark-main{
+    transition: 1s;
+    background-color: rgba(61, 61, 61, 0.93) !important;
+    color: white !important;
+}
+
+/*--------------------- Dark Mode Classes End   ------------------*/
+
+main{
+    background-color: var(--secondary-color);
+    border: 0 !important;
+    border-radius: 10px;
+}
+
+main{
+    width: 75% !important;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+    main{
+        width: 100% !important;
+    }
+
+    .profile-container img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50% !important;
+        transition: 0.5s;
+    }
+    .footer-section{
+        height: auto !important;
+    }
+    .footer-navbar{
+       margin-bottom: 5px;
+    }
+
+    .copy-right{
+        margin-bottom: 5px;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) {
+    main{
+        width: 100% !important;
+    }
+    .profile-container img{
+        width: 150px;
+        height: 150px;
+        transition: 0.5s;
+    }
+    .footer-section{
+        height: auto !important;
+    }
+    .footer-navbar{
+        margin-bottom: 5rem !important;
+    }
+    .copy-right{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 998.98px) {
+    main{
+        height: 100%;
+    }
+    .footer-section{
+        height: auto !important;
+    }
+    .footer-navbar{
+        margin-bottom: 20px;
+    }
+    .copy-right{
+        margin-bottom: 20px;
+    }
+}
+
+/*@media (min-width: 1000px) {*/
+/*    main{*/
+/*        height: 100vh !important;*/
+/*    }*/
+/*}*/
+
+.add-class-for-body1{
+    transition: 1s;
+    background-color: rgba(0,0,0,0.5) !important;
+    backdrop-filter: blur(100px);
+}
+
+.glassmorphosim_styles{
+    background: rgba(255, 255, 255, 0.58) !important;
+    backdrop-filter: blur( 15px ) !important;
+    /*border-radius: 10px!important;*/
+    border: 1px solid rgb(161, 159, 159) !important;
+}
+
+
+.float-menu-effect-layer{
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(9.2px);
+
+}
+
+.icon-1-size{
+    width: 25px !important;
+    height: 25px !important;
+}
+
+/* ------------------------------------------ navbar section start ------------------------------- */
+
+.navbar-section{
+    top: 10px !important;
+    transition: 1s;
+}
+
+.menu-btn{
+    background: rgba(255, 255, 255, 0.58) !important;
+    backdrop-filter: blur( 15px ) !important;
+    border: 1px solid rgb(161, 159, 159) !important;
+    text-align: center;
+}
+
+.menu-btn:hover{
+    transition: 0.2s !important;
+    color: white !important;
+    background-color: var(--text-hover-color-1) !important;
+}
+
+.links-container{
+/*  */
+}
+
+.links-container a{
+    text-decoration: none !important;
+    color: var(--text-color-1);
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.links-container a:hover{
+    transition: 0.4s;
+    color: var(--text-hover-color-1) !important;
+}
+
+.float-menu{
+    top: 110%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1005 !important;
+    background-color: #f3f3f3d4 !important;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 60px;
+}
+
+.float-menu a{
+    display: block;
+    padding: 10px 2px;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: var(--text-color-1);
+    transition: 1s;
+}
+
+/* ------------------------------------------ navbar section end ------------------------------- */
+
+/* ------------------------------------------ body section start ------------------------------- */
+
+.profile-container{
+    /*    */
+}
+.profile-container img{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    /*border-radius: 50%;*/
+}
+.profile-container p:nth-child(1){
+    font-size: 1.2rem;
+    /*color: var(--text-color-1);*/
+    font-weight: 500;
+}
+.profile-container p:nth-child(2){
+    /*font-size: 1rem;*/
+    /*color: var(--text-color-1);*/
+}
+
+
+/* ------------------------------------------ body section end ------------------------------- */
+
+
+/* ------------------------------------------ project section start ------------------------------- */
+
+.project-section{
+    /*color: var(--text-color-1);*/
+}
+
+.project-section a{
+    color: var(--text-color-1);
+}
+
+.project-section p:nth-child(1){
+/* */
+}
+
+.project-header{
+    /*  ---  */
+}
+
+.project-header i{
+    font-size: 1.2rem;
+}
+
+.project-header p{
+    font-size: 1.2rem;
+}
+
+.project-item{
+    border:0.5px solid gray;
+    transition: 0.5s;
+}
+
+.project-item:hover{
+    transition: 0.4s;
+    border:0.5px solid var(--text-color-2);
+    /*background-color: rgba(199, 198, 198, 0.35);*/
+    background-color: rgba(224, 224, 224, 0.12);
+
+}
+.project-name{
+    transition:0.5s;
+    font-size: 1.2rem;
+    border-left: 2px solid lightpink;
+    padding-left: 10px !important;
+}
+.project-name:hover{
+    /*transition:5s;*/
+    color: var(--text-hover-color-1) !important;
+}
+
+
+.project-description{
+    color: var(--text-color-3-gray) !important;
+    font-size: 12px !important;
+    font-weight: 500;
+}
+.project-link{
+    border-bottom: 0 solid rgba(255, 255, 255, 0);
+    transition: 1s;
+    font-size: 1rem
+}
+
+.project-link:hover{
+    transition: 1s;
+    color: var(--text-hover-color-1) !important;
+    border-bottom: 2px solid var(--text-hover-color-1);
+}
+
+.see-more-container{
+    /*color: var(--text-color-2);*/
+}
+
+.discover-more{
+    color: var(--text-color-2);
+    transition: 0.5s;
+    background-color: var(--text-hover-color-1);
+
+}
+
+.discover-more a{
+    color: var(--text-color-2);
+
+}
+
+
+/* ------------------------------------------ project section end ------------------------------- */
+
+/* ------------------------------------------ footer section start ------------------------------- */
+.footer-section{
+/*    */
+}
+
+.footer-navbar{
+/*    */
+}
+
+.copy-right{
+/*    */
+}
+
+.footer-navbar a{
+    margin-right: 10px !important;
+    color: var(--text-color-1);
+    font-weight: 500;
+}
+
+.copy-right p{
+    color: gray !important;
+}
+
+
+
+/* ------------------------------------------ footer section end ------------------------------- */
+
+/* Basic navigation link style */
+.nav-link-cus {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Styling for the active link */
+.active {
+    font-weight: bold;
+    color: var(--text-hover-color-1) !important;
+}
+
+

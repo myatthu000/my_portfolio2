@@ -1,0 +1,99 @@
+.contact-me-header p{
+    font-size: 3.2rem;
+}
+.contact-me-icon img{
+    width: 500px;
+}
+
+.contact-me-data p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-left: 2px solid lightpink;
+    padding-left: 1rem;
+}
+
+.contact-me-data p a{
+    /*font-size: 1.3rem;*/
+    margin-left: 6px;
+}
+
+
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .contact-me-container{
+        padding-top:3rem !important;
+    }
+    .contact-me-header p{
+        font-size: 1.9rem !important;
+    }
+    .contact-me-data p{
+        font-size: 1rem !important;
+        font-weight: bold;
+        border-left: 2px solid lightpink;
+        padding-left: 1rem;
+    }
+
+    .contact-me-data p a{
+        margin-left: 3px!important;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    .contact-me-container{
+        padding-top:3rem !important;
+    }
+    .contact-me-header p{
+        font-size: 2.3rem !important;
+    }
+    .contact-me-data p{
+        font-size: 1rem !important;
+        font-weight: bold;
+        border-left: 2px solid lightpink;
+        padding-left: 1rem;
+    }
+
+    .contact-me-data p a{
+        margin-left: 3px!important;
+    }
+}
+
+/*!*!* Medium devices (tablets, less than 998px)*!*!*/
+/*@media (max-width: 998.98px) {*/
+/*    .contact-me-container{*/
+/*        padding-top:3rem !important;*/
+/*    }*/
+/*    .contact-me-header p{*/
+/*        font-size: 2.3rem !important;*/
+/*    }*/
+/*    .contact-me-data p{*/
+/*        font-size: 1rem !important;*/
+/*        font-weight: bold;*/
+/*    }*/
+
+/*    .contact-me-data p a{*/
+/*        margin-left: 3px!important;*/
+/*    }*/
+/*}*/
+
+/*!* Large devices (desktops, less than 1200px)*!*/
+/*@media (max-width: 1300px) {*/
+/*    .contact-me-container{*/
+/*        padding-top:5rem !important;*/
+/*    }*/
+/*    .contact-me-header p{*/
+/*        font-size: 3rem !important;*/
+/*    }*/
+/*    .contact-me-icon img{*/
+/*        width: 400px;*/
+/*    }*/
+/*    .contact-me-data p{*/
+/*        font-size: 1rem !important;*/
+/*        font-weight: bold;*/
+/*    }*/
+
+/*    .contact-me-data p a{*/
+/*        margin-left: 6px !important;*/
+/*    }*/
+/*}*/

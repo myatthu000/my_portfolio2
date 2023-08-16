@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/aboutMe.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap531/css/bootstrap.min.css">
+    <link rel="icon" type="image/png/jpg" href="../assets/images/profile1.jpg">
+    <link rel="stylesheet" href="../assets/icons/feather-icons/feather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Myat Thurein Han | About Me</title>
+</head>
+<body>
+<div id="bg-blur-effect" class="float-menu-effect-layer d-none"></div>
+<main class="m-auto" id="main">
+    <section class="navbar-section position-sticky p-3 m-auto w-100">
+        <div class="d-flex position-relative justify-content-between align-items-center ">
+            <div class="logo d-inline-block border-0 px-3 text-center">
+                <h2 class="m-0">
+                    <button type="button" id="darkMode_btn" style="width: 45px;height: 45px;border-radius: 50%;backdrop-filter: blur(3px)"
+                            class="btn border text-decoration-none text-center">
+                        <i class="feather feather-sun text-warning"></i>
+                    </button>
+                </h2>
+            </div>
+            <div class="links-container d-none d-md-none d-lg-inline-block d-xl-inline-block
+                            glassmorphosim_styles px-3 py-2 rounded-pill">
+                <a class="mx-2 nav-link-cus" href="./index.html">Home</a>
+                <a class="mx-2 nav-link-cus" href="./AboutMe.html">About Me</a>
+                <a class="mx-2 nav-link-cus" href="./projects.html">Projects</a>
+                <a class="mx-2 nav-link-cus" href="./contact.html">Contact</a>
+            </div>
+            <div class="menu-container d-inline-block d-lg-none d-xl-none d-xxl-none">
+                <button id="menu-btn" class="menu-btn btn py-1 px-2">
+                    <i class="feather-menu icon-1-size"></i>
+                    <!--                    <img class="icon-1-size" src="../assets/icons/feather-icons/menu.svg" alt="Menu">-->
+                </button>
+            </div>
+        </div>
+        <!--            animate__animated animate__bounce-->
+        <div id="float-menu" class="float-menu animate__animated animate__zoomIn position-absolute d-none">
+            <a class="mx-2 nav-link-cus" href="./index.html">Home</a>
+            <a class="mx-2 nav-link-cus" href="./AboutMe.html">About Me</a>
+            <a class="mx-2 nav-link-cus" href="./projects.html">Projects</a>
+            <a class="mx-2 nav-link-cus" href="./contact.html">Contact</a>
+        </div>
+    </section>
+    <section class="about-section w-100 p-3 mt-3 m-auto">
+        <div class="about-container
+            d-flex justify-content-center align-items-center flex-wrap flex-column-reverse
+            d-md-flex justify-content-md-start align-items-md-center flex-md-nowrap flex-md-column-reverse
+            d-lg-flex justify-content-lg-start align-items-lg-start flex-lg-nowrap flex-lg-row
+            d-xl-flex justify-content-xl-start align-items-xl-start flex-xl-nowrap flex-xl-row
+        p-3">
+            <div class="mx-xl-3 mx-lg-3 mx-md-3 m-auto mb-3 flex-grow-1 about-text-container">
+                <p class="fw-bolder">About Me</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorem esse ipsa ipsum itaque labore.
+                </p>
+                <p class="fw-bolder">Education and Certification</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis iure, quae. Dolor dolores impedit nisi nulla perferendis rem sunt voluptatibus!
+                </p>
+                <p class="fw-bolder">Ambition and Future Plan</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque error fugiat modi quasi qui, similique sint voluptatibus! Accusantium doloremque eius et illo, ipsa necessitatibus quas quibusdam rerum sapiente sint, ullam.
+                </p>
+                <p class="fw-bolder">Available</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam harum illum libero molestias nobis officiis recusandae rerum similique suscipit voluptate? Expedita illum obcaecati possimus quae?
+                </p>
+            </div>
+            <div class="mx-xl-3 mx-lg-3 mx-md-3 mb-3 mb-md-4 mb-sm-4 flex-grow-1 about-image-container d-inline-block p-3 text-center">
+                <img src="../assets/images/profile1.jpg" class="d-inline" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="footer-section w-100 m-auto p-3 mt-3"
+             style="height: 20vh;">
+        <div class="footer-container
+            flex-lg-wrap d-lg-flex justify-content-lg-between align-items-lg-center flex-lg-row
+            flex-md-wrap d-md-flex justify-content-md-between align-items-md-center flex-md-column
+            flex-wrap d-flex justify-content-between align-items-center flex-column">
+            <div class="footer-navbar
+                    mb-5 mb-lg-mb-3 mb-md-3 mb-xl-3
+                     ">
+                <a class="nav-link-cus" href="./index.html">Home</a>
+                <a class="nav-link-cus" href="./AboutMe.html">About Me</a>
+                <a class="nav-link-cus" href="./projects.html">My Projects</a>
+                <a class="nav-link-cus" href="./contact.html">Contact</a>
+            </div>
+            <div class="copy-right
+                mb-5 mb-lg-mb-3 mb-md-3 mb-xl-3
+                ">
+                <p class="m-0"> © Myat Thurein Han. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+</body>
+<script src="../assets/vendor/bootstrap531/js/bootstrap.min.js"></script>
+<!--<script src="../assets/icons/feather-icons/demo.js"></script>-->
+<script src="js/index.js"></script>
+</html>
